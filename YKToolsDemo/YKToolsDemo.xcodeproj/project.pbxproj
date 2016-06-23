@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B0B1D9625AC71E34A944D0 /* libPods-YKToolsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA557DF633F26A38FD7D891D /* libPods-YKToolsDemoTests.a */; };
+		52F42441F496EF07E135C7BA /* libPods-YKToolsDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 734CB5893870996EDE327D31 /* libPods-YKToolsDemoUITests.a */; };
+		BDA08FF11D1B8D6B00F49B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA08FF01D1B8D6B00F49B0A /* main.m */; };
+		BDA08FF41D1B8D6B00F49B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA08FF31D1B8D6B00F49B0A /* AppDelegate.m */; };
+		BDA08FF71D1B8D6B00F49B0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA08FF61D1B8D6B00F49B0A /* ViewController.m */; };
+		BDA08FFA1D1B8D6B00F49B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA08FF81D1B8D6B00F49B0A /* Main.storyboard */; };
+		BDA08FFC1D1B8D6B00F49B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA08FFB1D1B8D6B00F49B0A /* Assets.xcassets */; };
+		BDA08FFF1D1B8D6B00F49B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA08FFD1D1B8D6B00F49B0A /* LaunchScreen.storyboard */; };
+		BDA0900A1D1B8D6B00F49B0A /* YKToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA090091D1B8D6B00F49B0A /* YKToolsDemoTests.m */; };
+		BDA090151D1B8D6B00F49B0A /* YKToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA090141D1B8D6B00F49B0A /* YKToolsDemoUITests.m */; };
+		BDA090241D1B8DB100F49B0A /* YKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA090231D1B8DB100F49B0A /* YKTools.m */; };
+		C2FD3A757C324E6927E1E4E2 /* libPods-YKToolsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A36C593A37EEC009F630AC96 /* libPods-YKToolsDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDA090061D1B8D6B00F49B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA08FE41D1B8D6B00F49B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA08FEB1D1B8D6B00F49B0A;
+			remoteInfo = YKToolsDemo;
+		};
+		BDA090111D1B8D6B00F49B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA08FE41D1B8D6B00F49B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA08FEB1D1B8D6B00F49B0A;
+			remoteInfo = YKToolsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		734CB5893870996EDE327D31 /* libPods-YKToolsDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKToolsDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7DF7EC4108FEB5702C26D5 /* Pods-YKToolsDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKToolsDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKToolsDemoUITests/Pods-YKToolsDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2CE54B5675102A47D66127F /* Pods-YKToolsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKToolsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKToolsDemo/Pods-YKToolsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A36C593A37EEC009F630AC96 /* libPods-YKToolsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKToolsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12F18905BE4FB156085B09F /* Pods-YKToolsDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKToolsDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKToolsDemoUITests/Pods-YKToolsDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BDA08FEC1D1B8D6B00F49B0A /* YKToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA08FF01D1B8D6B00F49B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDA08FF21D1B8D6B00F49B0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDA08FF31D1B8D6B00F49B0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDA08FF51D1B8D6B00F49B0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDA08FF61D1B8D6B00F49B0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDA08FF91D1B8D6B00F49B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDA08FFB1D1B8D6B00F49B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDA08FFE1D1B8D6B00F49B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDA090001D1B8D6B00F49B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA090051D1B8D6B00F49B0A /* YKToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA090091D1B8D6B00F49B0A /* YKToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKToolsDemoTests.m; sourceTree = "<group>"; };
+		BDA0900B1D1B8D6B00F49B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA090101D1B8D6B00F49B0A /* YKToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA090141D1B8D6B00F49B0A /* YKToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKToolsDemoUITests.m; sourceTree = "<group>"; };
+		BDA090161D1B8D6B00F49B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA090221D1B8DB100F49B0A /* YKTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTools.h; sourceTree = "<group>"; };
+		BDA090231D1B8DB100F49B0A /* YKTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTools.m; sourceTree = "<group>"; };
+		BF80D39DB4771D4EA6854137 /* Pods-YKToolsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKToolsDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKToolsDemoTests/Pods-YKToolsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA226B1A5FD5BF899E16F970 /* Pods-YKToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKToolsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKToolsDemo/Pods-YKToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DA557DF633F26A38FD7D891D /* libPods-YKToolsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YKToolsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5523DB367498C71121843D /* Pods-YKToolsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKToolsDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKToolsDemoTests/Pods-YKToolsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDA08FE91D1B8D6B00F49B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FD3A757C324E6927E1E4E2 /* libPods-YKToolsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA090021D1B8D6B00F49B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B0B1D9625AC71E34A944D0 /* libPods-YKToolsDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA0900D1D1B8D6B00F49B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F42441F496EF07E135C7BA /* libPods-YKToolsDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29219BF3E5E69047AFC641F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A36C593A37EEC009F630AC96 /* libPods-YKToolsDemo.a */,
+				DA557DF633F26A38FD7D891D /* libPods-YKToolsDemoTests.a */,
+				734CB5893870996EDE327D31 /* libPods-YKToolsDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		735BD6D7CB55EDF28AE3C719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE54B5675102A47D66127F /* Pods-YKToolsDemo.debug.xcconfig */,
+				CA226B1A5FD5BF899E16F970 /* Pods-YKToolsDemo.release.xcconfig */,
+				EC5523DB367498C71121843D /* Pods-YKToolsDemoTests.debug.xcconfig */,
+				BF80D39DB4771D4EA6854137 /* Pods-YKToolsDemoTests.release.xcconfig */,
+				7C7DF7EC4108FEB5702C26D5 /* Pods-YKToolsDemoUITests.debug.xcconfig */,
+				B12F18905BE4FB156085B09F /* Pods-YKToolsDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDA08FE31D1B8D6B00F49B0A = {
+			isa = PBXGroup;
+			children = (
+				BDA08FEE1D1B8D6B00F49B0A /* YKToolsDemo */,
+				BDA090081D1B8D6B00F49B0A /* YKToolsDemoTests */,
+				BDA090131D1B8D6B00F49B0A /* YKToolsDemoUITests */,
+				BDA08FED1D1B8D6B00F49B0A /* Products */,
+				735BD6D7CB55EDF28AE3C719 /* Pods */,
+				29219BF3E5E69047AFC641F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA08FED1D1B8D6B00F49B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA08FEC1D1B8D6B00F49B0A /* YKToolsDemo.app */,
+				BDA090051D1B8D6B00F49B0A /* YKToolsDemoTests.xctest */,
+				BDA090101D1B8D6B00F49B0A /* YKToolsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA08FEE1D1B8D6B00F49B0A /* YKToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BDA090221D1B8DB100F49B0A /* YKTools.h */,
+				BDA090231D1B8DB100F49B0A /* YKTools.m */,
+				BDA08FF21D1B8D6B00F49B0A /* AppDelegate.h */,
+				BDA08FF31D1B8D6B00F49B0A /* AppDelegate.m */,
+				BDA08FF51D1B8D6B00F49B0A /* ViewController.h */,
+				BDA08FF61D1B8D6B00F49B0A /* ViewController.m */,
+				BDA08FF81D1B8D6B00F49B0A /* Main.storyboard */,
+				BDA08FEF1D1B8D6B00F49B0A /* Supporting Files */,
+			);
+			path = YKToolsDemo;
+			sourceTree = "<group>";
+		};
+		BDA08FEF1D1B8D6B00F49B0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA08FFB1D1B8D6B00F49B0A /* Assets.xcassets */,
+				BDA08FFD1D1B8D6B00F49B0A /* LaunchScreen.storyboard */,
+				BDA090001D1B8D6B00F49B0A /* Info.plist */,
+				BDA08FF01D1B8D6B00F49B0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDA090081D1B8D6B00F49B0A /* YKToolsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA090091D1B8D6B00F49B0A /* YKToolsDemoTests.m */,
+				BDA0900B1D1B8D6B00F49B0A /* Info.plist */,
+			);
+			path = YKToolsDemoTests;
+			sourceTree = "<group>";
+		};
+		BDA090131D1B8D6B00F49B0A /* YKToolsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA090141D1B8D6B00F49B0A /* YKToolsDemoUITests.m */,
+				BDA090161D1B8D6B00F49B0A /* Info.plist */,
+			);
+			path = YKToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDA08FEB1D1B8D6B00F49B0A /* YKToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA090191D1B8D6B00F49B0A /* Build configuration list for PBXNativeTarget "YKToolsDemo" */;
+			buildPhases = (
+				DC994D99088297FA3A614B75 /* 📦 Check Pods Manifest.lock */,
+				BDA08FE81D1B8D6B00F49B0A /* Sources */,
+				BDA08FE91D1B8D6B00F49B0A /* Frameworks */,
+				BDA08FEA1D1B8D6B00F49B0A /* Resources */,
+				F8C457B82F53761BD44F574D /* 📦 Embed Pods Frameworks */,
+				BA7C641272B8762664007673 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKToolsDemo;
+			productName = YKToolsDemo;
+			productReference = BDA08FEC1D1B8D6B00F49B0A /* YKToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDA090041D1B8D6B00F49B0A /* YKToolsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA0901C1D1B8D6B00F49B0A /* Build configuration list for PBXNativeTarget "YKToolsDemoTests" */;
+			buildPhases = (
+				256A1ACF5B5F1782439EDAB8 /* 📦 Check Pods Manifest.lock */,
+				BDA090011D1B8D6B00F49B0A /* Sources */,
+				BDA090021D1B8D6B00F49B0A /* Frameworks */,
+				BDA090031D1B8D6B00F49B0A /* Resources */,
+				204A9234E9F2EEAC2F8B739A /* 📦 Embed Pods Frameworks */,
+				84D519A61E3034EB327F4942 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA090071D1B8D6B00F49B0A /* PBXTargetDependency */,
+			);
+			name = YKToolsDemoTests;
+			productName = YKToolsDemoTests;
+			productReference = BDA090051D1B8D6B00F49B0A /* YKToolsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDA0900F1D1B8D6B00F49B0A /* YKToolsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA0901F1D1B8D6B00F49B0A /* Build configuration list for PBXNativeTarget "YKToolsDemoUITests" */;
+			buildPhases = (
+				FCBA74998D0B36F17C3A2BFE /* 📦 Check Pods Manifest.lock */,
+				BDA0900C1D1B8D6B00F49B0A /* Sources */,
+				BDA0900D1D1B8D6B00F49B0A /* Frameworks */,
+				BDA0900E1D1B8D6B00F49B0A /* Resources */,
+				AC190EA0870AAB328C706E86 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA090121D1B8D6B00F49B0A /* PBXTargetDependency */,
+			);
+			name = YKToolsDemoUITests;
+			productName = YKToolsDemoUITests;
+			productReference = BDA090101D1B8D6B00F49B0A /* YKToolsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA08FE41D1B8D6B00F49B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaofan;
+				TargetAttributes = {
+					BDA08FEB1D1B8D6B00F49B0A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V5T362FM3J;
+					};
+					BDA090041D1B8D6B00F49B0A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BDA08FEB1D1B8D6B00F49B0A;
+					};
+					BDA0900F1D1B8D6B00F49B0A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BDA08FEB1D1B8D6B00F49B0A;
+					};
+				};
+			};
+			buildConfigurationList = BDA08FE71D1B8D6B00F49B0A /* Build configuration list for PBXProject "YKToolsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA08FE31D1B8D6B00F49B0A;
+			productRefGroup = BDA08FED1D1B8D6B00F49B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA08FEB1D1B8D6B00F49B0A /* YKToolsDemo */,
+				BDA090041D1B8D6B00F49B0A /* YKToolsDemoTests */,
+				BDA0900F1D1B8D6B00F49B0A /* YKToolsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDA08FEA1D1B8D6B00F49B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA08FFF1D1B8D6B00F49B0A /* LaunchScreen.storyboard in Resources */,
+				BDA08FFC1D1B8D6B00F49B0A /* Assets.xcassets in Resources */,
+				BDA08FFA1D1B8D6B00F49B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA090031D1B8D6B00F49B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA0900E1D1B8D6B00F49B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		204A9234E9F2EEAC2F8B739A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKToolsDemoTests/Pods-YKToolsDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		256A1ACF5B5F1782439EDAB8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84D519A61E3034EB327F4942 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKToolsDemoTests/Pods-YKToolsDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC190EA0870AAB328C706E86 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKToolsDemoUITests/Pods-YKToolsDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7C641272B8762664007673 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKToolsDemo/Pods-YKToolsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC994D99088297FA3A614B75 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C457B82F53761BD44F574D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKToolsDemo/Pods-YKToolsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCBA74998D0B36F17C3A2BFE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDA08FE81D1B8D6B00F49B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA08FF71D1B8D6B00F49B0A /* ViewController.m in Sources */,
+				BDA090241D1B8DB100F49B0A /* YKTools.m in Sources */,
+				BDA08FF41D1B8D6B00F49B0A /* AppDelegate.m in Sources */,
+				BDA08FF11D1B8D6B00F49B0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA090011D1B8D6B00F49B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA0900A1D1B8D6B00F49B0A /* YKToolsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA0900C1D1B8D6B00F49B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA090151D1B8D6B00F49B0A /* YKToolsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDA090071D1B8D6B00F49B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA08FEB1D1B8D6B00F49B0A /* YKToolsDemo */;
+			targetProxy = BDA090061D1B8D6B00F49B0A /* PBXContainerItemProxy */;
+		};
+		BDA090121D1B8D6B00F49B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA08FEB1D1B8D6B00F49B0A /* YKToolsDemo */;
+			targetProxy = BDA090111D1B8D6B00F49B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDA08FF81D1B8D6B00F49B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA08FF91D1B8D6B00F49B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDA08FFD1D1B8D6B00F49B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA08FFE1D1B8D6B00F49B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDA090171D1B8D6B00F49B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDA090181D1B8D6B00F49B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDA0901A1D1B8D6B00F49B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CE54B5675102A47D66127F /* Pods-YKToolsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = YKToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvxiaofan.YKToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDA0901B1D1B8D6B00F49B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA226B1A5FD5BF899E16F970 /* Pods-YKToolsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = YKToolsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvxiaofan.YKToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDA0901D1D1B8D6B00F49B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5523DB367498C71121843D /* Pods-YKToolsDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YKToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvxiaofan.YKToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKToolsDemo.app/YKToolsDemo";
+			};
+			name = Debug;
+		};
+		BDA0901E1D1B8D6B00F49B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF80D39DB4771D4EA6854137 /* Pods-YKToolsDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YKToolsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvxiaofan.YKToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKToolsDemo.app/YKToolsDemo";
+			};
+			name = Release;
+		};
+		BDA090201D1B8D6B00F49B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7DF7EC4108FEB5702C26D5 /* Pods-YKToolsDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = YKToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvxiaofan.YKToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YKToolsDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BDA090211D1B8D6B00F49B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12F18905BE4FB156085B09F /* Pods-YKToolsDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = YKToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvxiaofan.YKToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YKToolsDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDA08FE71D1B8D6B00F49B0A /* Build configuration list for PBXProject "YKToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA090171D1B8D6B00F49B0A /* Debug */,
+				BDA090181D1B8D6B00F49B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA090191D1B8D6B00F49B0A /* Build configuration list for PBXNativeTarget "YKToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA0901A1D1B8D6B00F49B0A /* Debug */,
+				BDA0901B1D1B8D6B00F49B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA0901C1D1B8D6B00F49B0A /* Build configuration list for PBXNativeTarget "YKToolsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA0901D1D1B8D6B00F49B0A /* Debug */,
+				BDA0901E1D1B8D6B00F49B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA0901F1D1B8D6B00F49B0A /* Build configuration list for PBXNativeTarget "YKToolsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA090201D1B8D6B00F49B0A /* Debug */,
+				BDA090211D1B8D6B00F49B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDA08FE41D1B8D6B00F49B0A /* Project object */;
+}
